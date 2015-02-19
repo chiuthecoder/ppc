@@ -1,0 +1,16 @@
+html{
+	font: 100% arial helvetica san-serif;
+}
+.wrapper{
+	width; 100%;
+	margin: 0 auto;
+}
+.header, .nav, .banner, .content{
+	width: 1000px;
+}
+.header, .nav{
+	background: gray;
+}
+.banner, .content{
+	background: #333;
+}
