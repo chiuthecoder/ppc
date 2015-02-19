@@ -31,7 +31,18 @@ html{
 	display: inline-block;
 	width: 60%;
 	vertical-align: top;
+	background: lightgray;
 }
 h2{
 	background: yellow;
+}
+.col-3{
+	display: inline-block;
+	width: 23.5%;
+	background: #fff;
+	min-height: 50px;
+	margin-right: 10px;
+}
+.more{
+	border: 1px solid gray;
 }
