@@ -9,10 +9,9 @@ html{
 	width: 1000px;
 	min-height: 50px;
 	display: block;
-	border: 1px solid pink;
 }
 .header, .nav{
-	background: gray;
+	background: #fff;
 
 }
 .banner, .content{
@@ -45,4 +44,24 @@ h2{
 }
 .more{
 	border: 1px solid gray;
+}
+.inline-block{
+	display: inline-block;
+}
+.nav{
+	border-top: 1px solid #333;
+	background: #ccc;
+    background: -webkit-linear-gradient(#fff, #ccc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fff, #ccc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fff, #ccc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fff, #ccc); /* Standard syntax (must be last) */
+
+}
+ul.list-inline{
+	list-style: none;
+	display: inline-block;
+}
+ul.list-inline li{
+	display: inline-block;
+	padding: 5px;
 }
